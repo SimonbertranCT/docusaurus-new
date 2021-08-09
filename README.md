@@ -1,1 +1,2 @@
-# docusaurus-new
+# A Jorsek template for Docusaurus
+
