@@ -8,10 +8,10 @@ module.exports = {
   organizationName: 'your-org', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
-//    algolia: {
-//      apiKey: 'YOUR_API_KEY',
-//      indexName: 'YOUR_INDEX_NAME',
-//    },
+    algolia: {
+      apiKey: '25626fae796133dc1e734c6bcaaeac3c',
+      indexName: 'docsearch',
+    },
     navbar: {
       title: 'My Site',
       logo: {
@@ -45,12 +45,12 @@ module.exports = {
   ],
   plugins: [
     // To enable the local search functionality, uncomment the following code:
-     //[require.resolve('@cmfcmf/docusaurus-search-local'), {
-     //indexDocs: true,
-     //    docsRouteBasePath: '/',
-     //    indexDocSidebarParentCategories: 3,
-     //    indexPages: false,
-     //    language: "en"
-     //}]
+     [require.resolve('@cmfcmf/docusaurus-search-local'), {
+     indexDocs: true,
+         docsRouteBasePath: '/',
+         indexDocSidebarParentCategories: 3,
+         indexPages: false,
+         language: "en"
+     }]
   ],
 };
