@@ -8,10 +8,10 @@ module.exports = {
   organizationName: 'your-org', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
-    algolia: {
-      apiKey: '25626fae796133dc1e734c6bcaaeac3c',
-      indexName: 'docsearch',
-    },
+    //algolia: {
+    //  apiKey: '25626fae796133dc1e734c6bcaaeac3c',
+    //  indexName: 'docsearch',
+    //},
     navbar: {
       title: 'My Site',
       logo: {
